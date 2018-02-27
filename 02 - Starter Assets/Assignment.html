@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<style type="text/css">
+
+/* This is for the rows and columns      */
+.column{
+	margin-top: 40px;
+ }
+
+#MyCarousel{
+   margin-top: 60px;
+   
+}
+
+#MyCarousel .item{
+   height: 400px;
+}
+
+.carousel-caption{
+   font-size: 24px;
+}
+.carousel-caption h4{
+   font-size: 32px;
+}
+#slide1{
+   
+   background: url('images/carousel_medium_01.jpg') top center no-repeat;
+}
+#slide2{
+   
+   background: url('images/carousel_medium_02.jpg') top center no-repeat;
+}
+#slide3{
+   
+   background: url('images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+.feature{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.feature p{
+	margin-top: 20px;
+}
+
+feature img{
+	margin : 0 0 20px;
+}
+/*Ends here for rows*/
+
+
+/*This is for making it responsive*/
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+#MyCarousel .item{
+   height: 310px;
+}
+#slide1{
+   
+   background: url('images/carousel_small_01.jpg') top center no-repeat;
+}
+#slide2{
+   
+   background: url('images/carousel_small_02.jpg') top center no-repeat;
+}
+#slide3{
+   
+   background: url('images/carousel_small_03.jpg') top center no-repeat;
+}
+
+.carousel-caption{
+   font-size: 16px;
+}
+.carousel-caption h4{
+   font-size: 22px;
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+#MyCarousel .item{
+   height: 500px;
+}
+#slide1{
+   
+   background: url('images/carousel_large_01.jpg') top center no-repeat;
+}
+#slide2{
+   
+   background: url('images/carousel_large_02.jpg') top center no-repeat;
+}
+#slide3{
+   
+   background: url('images/carousel_large_03.jpg') top center no-repeat;
+}	
+
+}
+
+
+
+/*End Responsive here*/
+/* Borders and Styles*/
+#row1{
+	border:solid ;
+	border-radius:25px;
+    padding: 25px
+}
+
+.SecondColumn ul{
+
+list-style: none;
+}
+
+/* end borders here*/
+
+
+	</style>
+	
+	<body>
+ <div class="container" id="main"> 
+   <div class="navbar navbar-inverse navbar-fixed-top" id="head">
+	     <div class="container" >
+             
+	     	<button class="navbar-toggle" data-target=".navbar-responsive-collapse " data-toggle="collapse" type="button">
+	     		<span class="icon-bar"></span>
+	     		<span class="icon-bar"></span>
+	     		<span class="icon-bar"></span>
+	     	</button>
+
+	     	<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Logo"></a>
+	     	
+	     	<div class="nav-collapse collapse navbar-responsive-collapse">
+	     		
+	     		<ul class="nav navbar-nav">
+	     			
+	     		  <li class="active">
+	     		  	<a href="/" id="Bar">Home</a>
+	     		  </li>
+                  
+
+                  <li class="passive dropdown">
+	     		  	<a href="/" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong>
+	     		  	</a>
+	     		  
+                   <ul class="dropdown-menu">
+                   	 <li>
+                   	   <a href="#">Web Applications</a>
+                   	 </li>
+                   	
+                   	 <li>
+                   	   <a href="#">Cloud Applications</a>
+                   	 </li>
+                    
+                     <li>
+                   	   <a href="#">Storage Solutions</a>
+                   	 </li>
+
+                   	 <li class="divider"></li>
+
+                   	 <li class="dropdown-header">More Services</li>
+                      
+                      <li>
+                   	   <a href="#">Consulting</a>
+                   	 </li>
+                    
+                     <li>
+                   	   <a href="#">IT Training</a>
+                   	 </li>
+                   </ul><!-- end of dropdown -->
+                  </li>
+                   
+                   <li class="passive dropdown">
+	     		  	<a href="/" class="dropdown-toggle" data-toggle="dropdown">Products<strong class="caret"></strong>
+	     		  	</a>
+	     		  
+                   <ul class="dropdown-menu">
+                   	 <li>
+                   	   <a href="#">Product 1</a>
+                   	 </li>
+                   	
+                   	 <li>
+                   	   <a href="#">Product 2</a>
+                   	 </li>
+                    
+                     <li>
+                   	   <a href="#">Product 3</a>
+                   	 </li>
+
+                   	 <li class="divider"></li>
+
+                   	 <li class="dropdown-header">More Services</li>
+                      
+                      <li>
+                   	   <a href="#">Sub-Product 1</a>
+                   	 </li>
+                    
+                     <li>
+                   	   <a href="#">Sub-Product 2</a>
+                   	 </li>
+                   </ul><!-- end of dropdown -->
+                  </li>
+                  
+                  <li class="passive dropdown">
+	     		  	<a href="/" class="dropdown-toggle" data-toggle="dropdown">Applications<strong class="caret"></strong>
+	     		  	</a>
+	     		  
+                   <ul class="dropdown-menu">
+                   	 <li>
+                   	   <a href="#">Application 1</a>
+                   	 </li>
+                   	
+                   	 <li>
+                   	   <a href="#">Application 1</a>
+                   	 </li>
+                    
+                     <li>
+                   	   <a href="#">Application 1</a>
+                   	 </li>
+
+                   	 <li class="divider"></li>
+
+                   	 <li class="dropdown-header">More Application</li>
+                      
+                      <li>
+                   	   <a href="#">Sub-Product 1</a>
+                   	 </li>
+                    
+                     <li>
+                   	   <a href="#">Sub-Product 2</a>
+                   	 </li>
+                   </ul><!-- end of dropdown -->
+                  </li>
+                </ul>
+             
+             <form class="navbar-form pull-left">
+               <input type="text" class="form-control" placeholder="search this site" id="SearchInput">
+               <button type="submit" class="btn btn-default">
+               	 <span class="glyphicon glyphicon-search"></span>
+               </button>
+
+             </form>
+
+             <ul class="nav navbar-nav pull-right">
+             	
+             	<li class="dropdown">
+                     
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     	<span class="glyphicon glyphicon-user">My account<strong class="caret">
+                     	</strong></span>	
+                     	
+                     </strong>
+                    </a>
+                   
+                   <ul class="dropdown-menu">
+                   	<li>
+                   		<a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+                   	</li>
+                    <li>
+                   		<a href="#"><span class="glyphicon glyphicon-refresh">Update Profile</a>
+                   	</li>
+                    <li>
+                   		<a href="#"><span class="glyphicon glyphicon-briefcase">Billing</a>
+                   	</li>
+                    <li class="divider"></li>
+
+                    <li>
+                   		<a href="#"><span class="glyphicon glyphicon-off">Log Out</a>
+                   	</li>
+                   </ul>
+                     
+                               	
+
+
+
+
+             	</li>
+             	
+
+             </ul>
+
+           </div> <!--End of Navbar collapse-->
+
+
+
+	     </div> <!--End of Container-->  
+	   
+	   </div> <!--End navbar-->   	
+  
+  <div class="carousel slide" id="MyCarousel" data-ride="carousel">
+          
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+          	<li class="active" data-target="#MyCarousel" data-slide-to="0"></li>
+          	<li   data-target="#MyCarousel" data-slide-to="1"></li>
+            <li   data-target="#MyCarousel" data-slide-to="2"></li>
+          </ol>
+
+
+          <!--Wrapper for the carousel-->
+          <div class="carousel-inner">
+          	<div class="item active" id="slide1">
+          		<div class="carousel-caption">
+          			<h4> Yes</h4>
+          			<p>This how to code using bootstrap 3</p>
+
+
+
+          		</div><!--End of carousel caption-->
+
+          		
+
+          		
+          	</div><!--End of slide1-->
+          	
+          	<div class="item" id="slide2">
+          		<div class="carousel-caption">
+          			<h3> Learn how not to code a website in 4 hours</h3>
+          			<p>This is supposed to be fun but it really is not</p>
+
+
+
+          		</div><!--End of caoursel caption-->
+
+
+          		
+
+          		
+          	</div><!--End of slide2-->
+
+          <div class="item" id="slide3">
+          		<div class="carousel-caption">
+          			<h3> Web-hosting 101</h3>
+          			<p>Learn how to sell your products and other services perfectly online</p>
+
+
+
+          		</div><!--End of caoursel caption<-->
+              </div><!--End of slide3-->
+          
+            <!--Controls-->
+              </div> <!--End carousel-inner-->
+            <a class="left carousel-control" data-slide="prev" href="#MyCarousel"><span class="icon-prev"></span><span class="sr-only">previous</span></a>
+            
+            <a class="right carousel-control" data-slide="next" href="#MyCarousel"><span class="icon-next"></span><span class="sr-only">next</span></a>
+            
+
+
+          
+	   
+      </div> <!--End of carousel--> 
+
+  
+  
+   
+	  
+		<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Column 1</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge_css3.jpg" alt="HTML5" class="img-circle">
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, repellendus dolore eius cumque repellat excepturi, sunt aspernatur iusto saepe perferendis suscipit. Asperiores cumque illo laboriosam saepe, tenetur eius dolor repudiandae.</p>
+						
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Learn to code HTML5</a>
+					</div><!-- end panel -->
+        </div> 
+       <div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Column 2</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus facere est eos odio modi dolorem incidunt possimus porro magni sunt neque, quasi minima ducimus non id sequi rem quos explicabo.</p>
+						
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block" style=" margin-top: 30px;">Learn to code HTML5</a>
+					</div><!-- end panel -->
+         </div>
+       <div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Column 3</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/badge_bootstrap.jpg" alt="HTML5" class="img-circle">
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nam excepturi cumque ea dolorum iste odit debitis nobis amet, quam voluptatem architecto eius hic ullam explicabo fugiat veritatis eos repellendus?</p>
+						
+						<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">Learn to code HTML5</a>
+					</div><!-- end panel -->
+
+      </div>
+     </div>
+   <div class="col-sm-12">
+   	 <div class="col-sm-6">
+   	 	<div class="page-header">
+         		<h1>Column 1<small>  No Rows </small>
+         		</h1>
+
+         </div> <!-- End of the page header -->       
+       
+      
+       <p class="lead"> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nulla accusamus vero quae. Deleniti quia unde perferendis, totam aliquid itaque voluptatem, inventore ducimus, voluptatum, fugiat veniam voluptas aut? Officiis, asperiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla. Libero sapiente facere rerum iure quia quo mollitia odio officia voluptatem deserunt modi laborum, quibusdam aspernatur ipsam adipisci! Sapiente, fuga!</p>
+
+       
+   	 </div>
+     
+     <div class="col-sm-6">
+   	 	
+   	 
+     <div class="SecondColumn"> 
+     	<br><br>
+     	<div class="page header" id="Heading2">
+     		<h1>Column<small>  This has 3 rows </h1>
+
+        <br><br> 
+     	<ul>
+          <li Id="row1" class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eius in eum officia corporis? Modi dicta tenetur natus earum rerum reprehenderit, necessitatibus, harum at officia, dolorum laborum aliquam autem iste?</li><br><br>
+          
+          <li Id="row1" class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias labore voluptatibus ullam nisi. Quo labore amet nihil, numquam vel, quis odio laboriosam fugit, voluptate rem commodi neque quod veniam ullam.</li><br><br>
+          
+          <li Id="row1" class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias cupiditate est consectetur beatae cum quis doloribus voluptatibus perspiciatis temporibus molestiae tempora numquam, maiores, blanditiis, fugit nihil possimus voluptate esse dolorum.</li> 
+        </ul>
+     
+     </div> 
+
+
+
+    </div>       
+   </div>
+
+   <footer class="clearfix" style="min-width: 40px;">
+      <div class="foot1">
+   	  <a href="Form.html" target="_blank">
+   	  <img src="img/Fb.png">
+   	  <a href="Part2.html" target="_blank">
+   	  <img src="img/twitter.png">
+      <a href="Part2.html" target="_blank">
+   	  <img src="img/instagram.jpeg">
+      </div>
+      <br>  
+      <ul class="clearfix">
+ 	  	<li>
+ 	  		<img src="img/Help.png">
+ 	  		<a href="#"><b>Help</b></a>
+ 	  	</li>
+ 	  	<li>
+ 	  		<img src="img/address.png">
+ 	  		<a href="#"><b>Address</b></a>
+ 	  	</li>
+ 	  	<li>
+            <img src="img/phone.png">
+ 	  		<a href="#"><b>Contact</b></a>
+ 	  	</li>
+ 	  </ul>
+  </footer>
+    
+</div>
+
+   
+
+  </body>
+</html>
+
+	
+
+
+
+
+
+
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
